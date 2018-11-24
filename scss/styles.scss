@@ -1,3 +1,11 @@
-body {
-    background: orange;
-}
+@import 'reset';
+@import 'responsive';
+@import 'variables';
+@import 'typography';
+
+@import 'layout';
+@import 'navigation';
+@import 'animations';
+
+@import 'site-header';
+@import 'site-footer';
