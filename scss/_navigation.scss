@@ -1,0 +1,35 @@
+.navigation {
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    display: block;
+    list-style: none outside;
+    padding: 0 1.5rem;
+  }
+
+  a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: orange;
+      animation: fadeIn 0.3s 1 ease-in alternate;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(0-.5rem) scaleX(1.2);
+  }
+
+}

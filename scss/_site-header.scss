@@ -1,0 +1,38 @@
+.site-header {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  background: linear-gradient(to top, #052607fa, #317748);
+  padding: 1rem 0;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.site-branding {
+  text-align: center;
+
+  @at-root {
+    .site-title {
+      font-family: 'Bree Serif',serif;
+      font-size: 2rem;
+      padding: 0;
+    }
+
+    .site-description {
+      font-family: 'Indie Flower', cursive;
+      padding: 0;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+
+.logo img{
+  width: 10rem;
+  height: auto;
+  box-shadow: 0 0 2rem 0.4rem rgba(255, 255, 255, 0.2);
+  background: #1f3b21;
+  border-radius: 38px;
+  border: 2px solid white;
+}

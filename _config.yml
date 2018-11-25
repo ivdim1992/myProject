@@ -3,7 +3,7 @@
 
 title: my-project-jekyll
 email: ivdim1992@gmail.com
-description: This is base description!!!
+description: From beginner to professional chef.
 baseurl: "/myProject" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: none

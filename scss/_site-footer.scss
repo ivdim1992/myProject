@@ -1,0 +1,47 @@
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to top, #052607fa, #317748);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  @at-root {
+    & .author p{
+      padding: 0;
+    }
+
+    .links {
+
+      @at-root {
+        #{&} ul {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+        }
+
+        #{&} li {
+          display: block;
+          list-style: none outside;
+          padding: 0.5rem 1rem;
+          border-left: 1px solid #599e99;
+          border-right: 1px solid #599e99;
+        }
+
+        #{&} a {
+          display: block;
+          text-decoration: none;
+          color:white;
+          font-size: 1.6rem;
+
+          &:hover {
+            color: #c2c2c2;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
