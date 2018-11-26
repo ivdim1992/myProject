@@ -3,13 +3,15 @@ html {
 
 }
 
-@include breakpoint('phone') {html {font-size: var(--font-size-lv2,14px)}}
+@include breakpointMin('phone') {html {font-size: var(--font-size-lv2,14px)}}
 
-@include breakpoint('tablet') {html {font-size: var(--font-size-lv3,16px)}}
+@include breakpointMin('tablet') {html {font-size: var(--font-size-lv3,16px)}}
 
-@include breakpoint('desktop') {html {font-size: var(--font-size-lv4,18px)}}
+@include breakpointMin('desktop') {html {font-size: var(--font-size-lv4,18px)}}
 
-@include breakpoint('desktop-wide') {html {font-size: var(--font-size-lv5,20px)}}
+@include breakpointMin('desktop-wide') {html {font-size: var(--font-size-lv5,20px)}}
+
+
 
 body, table, th, td, form, input, textarea, option, select {
   font: inherit;

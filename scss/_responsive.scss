@@ -1,4 +1,5 @@
-@mixin breakpoint($point) {
+
+@mixin breakpointMin($point) {
   @if $point == 'phone' {
     @media(min-width: 500px) {@content; }
   }
@@ -10,7 +11,58 @@
     @media(min-width: 1248px) {@content; }
   }
   @if $point == 'desktop-wide' {
-    @media(min-width: 1600px) {@content; }
+    @media(min-width: 1800px) {@content; }
   }
 
 }
+@mixin breakpointMax($point) {
+  @if $point == 'phone' {
+    @media(max-width: 500px) {@content; }
+  }
+
+  @if $point == 'tablet' {
+    @media(max-width: 750px) {@content; }
+  }
+  @if $point == 'desktop' {
+    @media(max-width: 1248px) {@content; }
+  }
+  @if $point == 'desktop-wide' {
+    @media(max-width: 1800px) {@content; }
+  }
+
+}
+
+
+
+@include breakpointMax('phone') {
+  .site-header, .site-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-branding {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+}
+
+@include breakpointMax('tablet') {
+
+  .site-header, .site-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .site-branding {
+    margin-bottom: 1rem;
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+}
+
+
