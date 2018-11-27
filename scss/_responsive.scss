@@ -1,40 +1,125 @@
-
 @mixin breakpointMin($point) {
   @if $point == 'phone' {
-    @media(min-width: 500px) {@content; }
+    @media(min-width: 500px) {
+      @content;
+    }
   }
 
   @if $point == 'tablet' {
-    @media(min-width: 750px) {@content; }
+    @media(min-width: 750px) {
+      @content;
+    }
   }
   @if $point == 'desktop' {
-    @media(min-width: 1248px) {@content; }
+    @media(min-width: 1248px) {
+      @content;
+    }
   }
   @if $point == 'desktop-wide' {
-    @media(min-width: 1800px) {@content; }
+    @media(min-width: 1800px) {
+      @content;
+    }
   }
 
 }
+
 @mixin breakpointMax($point) {
   @if $point == 'phone' {
-    @media(max-width: 500px) {@content; }
+    @media(max-width: 500px) {
+      @content;
+    }
   }
 
   @if $point == 'tablet' {
-    @media(max-width: 750px) {@content; }
+    @media(max-width: 750px) {
+      @content;
+    }
   }
+
   @if $point == 'desktop' {
-    @media(max-width: 1248px) {@content; }
+    @media(max-width: 1248px) {
+      @content;
+    }
   }
   @if $point == 'desktop-wide' {
-    @media(max-width: 1800px) {@content; }
+    @media(max-width: 1800px) {
+      @content;
+    }
   }
 
 }
+// THIS IS FOR BURGER MENU
+@include breakpointMax('tablet') {
+
+  .navigation {
+    display: none;
+  }
+
+  #nav-main-toggle {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+
+    font-size: 2rem;
+    padding: 1rem 0.5rem;
+
+    & span {
+      display: none;
+    }
+
+    &:before {
+      content: '\f039';
+    }
+
+    &:before {
+      margin-right: 1rem;
+    }
+
+    &#nav-toggle-right {
+      left: inherit;
+      right: var(--spacing-site, 2rem);
+    }
+  }
+
+  #nav-main-toggle:checked + .site-header {
+
+    .navigation {
+      display: block;
+
+      .listings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+
+        li {
+          box-shadow: 0 0 2rem 0.4rem rgba(255,255,255,.2);
+          margin: 1rem 0;
+          padding: 0.4rem 1.4rem;
+        }
+      }
+    }
+
+    .nav-toggle:before {
+      content: '\f00d';
+    }
+  }
 
 
+  .learn {
+    flex-wrap: wrap;
+  }
 
+  .travel {
+    flex-wrap: wrap;
+  }
+}
+// THIS IS FOR RESPONSIVE HEADER and IMG
 @include breakpointMax('phone') {
+
   .site-header, .site-footer {
     display: flex;
     flex-direction: column;
@@ -65,4 +150,36 @@
   }
 }
 
+//This is for .learn and .travel in INDEX
+@include breakpointMax('tablet') {
+  .learn {
 
+    .media img {
+      width: 25rem;
+      height: auto;
+    }
+
+  }
+
+  .travel {
+
+    .header {
+      margin-top: 1rem;
+    }
+  }
+}
+
+// THIS IS FOR GALLERY
+@include breakpointMax('phone') {
+  .gallery {
+    display: block !important;
+
+    figure {
+      margin-bottom: 1em;
+    }
+
+    figcaption {
+      font-size: .9em;
+    }
+  }
+}

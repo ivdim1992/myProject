@@ -1,8 +1,11 @@
+<input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
 <header class="site-header">
     <div class="site-branding">
         <p class="site-title">The Chef's</p>
         <p class="site-description">{{ site.description }}</p>
     </div>
+
+    <label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle left"><span>Menu</span></label>
     <div class="logo">
         <img src="{{ site.baseurl }}/images/chef.png" alt="cookChef" alt="cookChef">
     </div>
@@ -11,6 +14,7 @@
             <li><a href="{{ site.baseurl }}/">Home</a></li>
             <li><a href="{{ site.baseurl }}/about/">About</a></li>
             <li><a href="{{ site.baseurl }}/recipes/">Recipes</a></li>
+            <li><a href="{{ site.baseurl }}/gallery/">Gallery</a></li>
             <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>
         </ul>
     </nav>

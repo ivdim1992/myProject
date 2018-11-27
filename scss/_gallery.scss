@@ -1,0 +1,80 @@
+.gallery-wrapper {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 100%;
+  padding: 1rem;
+  max-width: 70rem;
+  margin: 0 auto;
+  background: #ececec;
+
+  .gallery-header {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #898989;
+    text-align: center;
+    letter-spacing: 7px;
+    text-shadow: 0px -2px 15px rgba(149, 142, 179, 1);
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 270px;
+    grid-gap: .8em;
+    grid-auto-flow: row dense;
+    font-weight: 400;
+
+    @at-root & img {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      flex: 1;
+      opacity: .7;
+      object-fit: cover;
+      transition: all 300ms ease-out;
+    }
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    background: linear-gradient(to top, #052607fa, #317748);
+    padding: 7px;
+    margin: 3px;
+
+    .img-wrap {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    &:hover img {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+
+  .two-span-row {
+    grid-row: auto / span 2;
+  }
+
+  .two-span-column {
+    grid-column: auto / span 2;
+  }
+
+  .full-span-column {
+    grid-column: 1 / -1;
+    grid-row: span 1;
+  }
+
+  figcaption {
+    text-align: right;
+    margin-top: 3px;
+    border-top: 1px solid rgba(255, 255, 255, .8);
+    padding-top: 5px;
+    color: rgba(255, 255, 255, .8);
+  }
+}

@@ -9,11 +9,14 @@
 <body>
 
 <div class="site">
-    <header class="site-header">
+    <input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
+<header class="site-header">
     <div class="site-branding">
         <p class="site-title">The Chef's</p>
         <p class="site-description">From beginner to professional chef.</p>
     </div>
+
+    <label id="nav-toggle" for="nav-main-toggle" class="fas nav-toggle left"><span>Menu</span></label>
     <div class="logo">
         <img src="/myProject/images/chef.png" alt="cookChef" alt="cookChef">
     </div>
@@ -22,6 +25,7 @@
             <li><a href="/myProject/">Home</a></li>
             <li><a href="/myProject/about/">About</a></li>
             <li><a href="/myProject/recipes/">Recipes</a></li>
+            <li><a href="/myProject/gallery/">Gallery</a></li>
             <li><a href="/myProject/contacts/">Contacts</a></li>
         </ul>
     </nav>
@@ -29,7 +33,124 @@
 
 
     <main class="site-content">
-        <h1>Here is Gallery</h1>
+        <div class="gallery-wrapper">
+    <section class="gallery-section">
+        <h2 class="gallery-header"><span>GALLERY</span></h2>
+
+        <div class="gallery">
+            <figure class="pic1 two-span-row">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1526069484584-65f9bb9713b9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0fb9472d8f2dbb8a4e946b8415e93549&auto=format&fit=crop&w=400&q=80" alt="bread">
+                </div>
+                <figcaption>Slice of Bread</figcaption>
+            </figure>
+            <figure class="pic2">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1468071174046-657d9d351a40?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=92ef87bffeea6bcb31fa87fe180ce1cc&auto=format&fit=crop&w=400&q=80" alt="hamburger">
+                </div>
+                <figcaption>Hamburger</figcaption>
+            </figure>
+            <figure class="pic3 two-span-column">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1452968011964-24f8831c43c3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=798a25ce5428ac5438ba5c9bf3037134&auto=format&fit=crop&w=400&q=80" alt="raspberries">
+                </div>
+                <figcaption>Raspberries</figcaption>
+            </figure>
+            <figure class="pic4">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1471253387723-35c53c9f97ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b786316c1b51337d6162e1ef964f7c00&auto=format&fit=crop&w=400&q=80" alt="food">
+                </div>
+                <figcaption>Fried Fish</figcaption>
+            </figure>
+
+            <figure class="pic5">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1485921325833-c519f76c4927?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=412bda5e6fbc656b7c85247bd0bb3fa1&auto=format&fit=crop&w=400&q=80" alt="fish">
+                </div>
+                <figcaption>Salmon</figcaption>
+            </figure>
+            <figure class="pic6">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1502725592220-bcf20e5035c5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b5e59dd5e6e5f90409e2a7a07c7a5e6f&auto=format&fit=crop&w=400&q=80" alt="hamburger">
+                </div>
+                <figcaption>Sandwiches</figcaption>
+            </figure>
+            <figure class="pic7 two-span-column">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1464196290972-3c085498b4d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5d30e1aad7ba279ef222686aa3a43eba&auto=format&fit=crop&w=400&q=80" alt="eggs">
+                </div>
+                <figcaption>Boiled Eggs</figcaption>
+            </figure>
+            <figure class="pic8">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1460667450797-d71a56692010?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7cf11b96436b2f65c8e7e8acf887dd81&auto=format&fit=crop&w=400&q=80" alt="salad">
+                </div>
+                <figcaption>Cake</figcaption>
+            </figure>
+            <figure class="pic9 two-span-row">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1504473089979-b1c4993a9653?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9db69b72e1f7d1b4e5c81cee531108ff&auto=format&fit=crop&w=400&q=80" alt="raspberry">
+                </div>
+                <figcaption>Raspberries</figcaption>
+            </figure>
+            <figure class="pic10 full-span-column">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1498601761256-9e93c6f5c181?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1c88a204e3fd310ff7e9ea5d61a3c6d8&auto=format&fit=crop&w=400&q=80" alt="salad">
+                </div>
+                <figcaption>Salad</figcaption>
+            </figure>
+            <figure class="pic11">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1509727090451-6052b6d62425?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4223c3e0b8c77315712ff8ced4194043&auto=format&fit=crop&w=400&q=80" alt="dessert">
+                </div>
+                <figcaption>Oranges</figcaption>
+            </figure>
+            <figure class="pic12 two-span-row">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1530114722439-f5cbd4dad762?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4f4a6fee4adc30b60515fb522061cd8&auto=format&fit=crop&w=400&q=80" alt="food">
+                </div>
+                <figcaption>Chicken</figcaption>
+            </figure>
+            <figure class="pic13">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1505253468034-514d2507d914?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=140e2054487a8f6f092fd6cda183cfac&auto=format&fit=crop&w=400&q=80" alt="dessert">
+                </div>
+                <figcaption>Desserts</figcaption>
+            </figure>
+            <figure class="pic14">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1515088167831-556650cef41d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf93b299ad507f3a6f253974c259593d&auto=format&fit=crop&w=400&q=80" alt="cake">
+                </div>
+                <figcaption>Fruit Cake</figcaption>
+            </figure>
+            <figure class="pic15">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1505575967455-40e256f73376?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d17b6df4cb810b6860782351027b766&auto=format&fit=crop&w=400&q=80" alt="brunch">
+                </div>
+                <figcaption>Brunch</figcaption>
+            </figure>
+            <figure class="pic16 two-span-column">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1513959387875-668420198101?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a94a1c6dad8db00ec4df928c502e62a6&auto=format&fit=crop&w=1650&q=80" alt="hamburger">
+                </div>
+                <figcaption>Hamburger</figcaption>
+            </figure>
+            <figure class="pic17">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1507260385058-676ee3f043e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6483a95cbd28bb2858d19efc9fcdfa5&auto=format&fit=crop&w=1650&q=80" alt="apples">
+                </div>
+                <figcaption>Apples</figcaption>
+            </figure>
+            <figure class="pic18">
+                <div class="img-wrap">
+                    <img src="https://images.unsplash.com/photo-1516105442523-f6e1d7888852?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8ea4f6bca15ce613e0933fb523555cd2&auto=format&fit=crop&w=1572&q=80" alt="lime">
+                </div>
+                <figcaption>Lime</figcaption>
+            </figure>
+
+        </div>
+    </section>
+</div>
     </main>
 
     <footer class="site-footer">

@@ -2,7 +2,6 @@
 
   ul {
     display: flex;
-    flex-wrap: wrap;
   }
 
   li {
@@ -23,4 +22,18 @@
     }
   }
 }
+
+#nav-main-toggle {
+  display: none;
+}
+
+.nav-toggle {
+  & span {
+    display: none;
+  }
+}
+
+
+
+
 

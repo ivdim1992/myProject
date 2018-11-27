@@ -1,7 +1,6 @@
 .learn {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem;
   background: #f0f0f0;
@@ -39,7 +38,6 @@
 .travel {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem;
   background: white;
@@ -57,6 +55,7 @@
       height: 18rem;
       border: 2px solid black;
       width: 22rem;
+      margin: 0;
     }
 
     & article {
@@ -71,6 +70,10 @@
         letter-spacing: 0.2rem;
         padding-bottom: 1rem;
         color: #727272;
+      }
+
+      .description {
+        padding-left: 1rem;
       }
     }
   }
