@@ -5,6 +5,15 @@
   to {
     transform: translateY(0-.5rem) scaleX(1.2);
   }
+}
 
+@keyframes rotate {
+  from {
+    transform:scale(0.3) rotate(30deg);
+  }
+
+  to {
+    transform: scale(1.15)  rotate(370deg);
+  }
 }
 
