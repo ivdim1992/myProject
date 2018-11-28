@@ -3,3 +3,16 @@ layout: site
 title: Recipes
 permalink: /recipes/
 ---
+<div class="recipes-wrapper">
+    <p class="header-recipes">Our free Recipes</p>
+    <ul class="listing posts">
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                <p class="title">{{ post.title }}</p>
+                <img src="{{site.baseurl}}/images/{{ post.img }}" alt="salmon">
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

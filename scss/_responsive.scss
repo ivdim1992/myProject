@@ -29,9 +29,19 @@
       @content;
     }
   }
+  @if $point == 'phone-wide' {
+    @media(max-width: 650px) {
+      @content;
+    }
+  }
 
   @if $point == 'tablet' {
     @media(max-width: 750px) {
+      @content;
+    }
+  }
+  @if $point == 'tablet-wide' {
+    @media(max-width: 850px) {
       @content;
     }
   }
@@ -48,6 +58,7 @@
   }
 
 }
+
 // THIS IS FOR BURGER MENU
 @include breakpointMax('tablet') {
 
@@ -96,7 +107,7 @@
         padding: 0;
 
         li {
-          box-shadow: 0 0 2rem 0.4rem rgba(255,255,255,.2);
+          box-shadow: 0 0 2rem 0.4rem rgba(255, 255, 255, .2);
           margin: 1rem 0;
           padding: 0.4rem 1.4rem;
         }
@@ -108,7 +119,6 @@
     }
   }
 
-
   .learn {
     flex-wrap: wrap;
   }
@@ -117,6 +127,7 @@
     flex-wrap: wrap;
   }
 }
+
 // THIS IS FOR RESPONSIVE HEADER and IMG
 @include breakpointMax('phone') {
 
@@ -181,5 +192,37 @@
     figcaption {
       font-size: .9em;
     }
+  }
+}
+
+// THIS IS FOR ABOUT
+@include breakpointMax('tablet-wide') {
+  .wrapper-about {
+    flex-wrap: wrap;
+
+    .brand-about {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .location {
+    flex-wrap: wrap;
+  }
+}
+
+@include breakpointMax('phone') {
+  .outer-wrap {
+    .location {
+      .media img {
+        width: 30rem;
+      }
+    }
+  }
+}
+
+// FOR CONTACTS
+@include breakpointMax('phone-wide') {
+  .form-wrapper{
+    left: 15% !important;
   }
 }

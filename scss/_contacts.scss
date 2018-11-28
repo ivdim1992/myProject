@@ -1,0 +1,51 @@
+.contacts-wrapper {
+
+  background-image: url("/images/collegues.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  filter: blur(5px);
+}
+
+
+.form-wrapper {
+  position: absolute;
+  top: 38%;
+  left: 34%;
+  padding: 2rem 3rem;
+  background-color: rgba(72,72,72,0.4);
+  width: 29rem;
+
+
+  .input {
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 3px solid transparent;
+  }
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+
+  .button {
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor:pointer;
+    background: linear-gradient(to top, #052607fa, #317748);
+    color:white;
+    font-size:24px;
+    padding: 1rem 0;
+    margin-top:-4px;
+    font-weight:700;
+
+  }
+
+
+}
+

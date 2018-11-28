@@ -1,0 +1,54 @@
+.recipes-wrapper {
+
+  padding: 3rem;
+
+  .header-recipes {
+    font-family: 'Bree Serif',serif;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(233, 178, 123, 0.5);
+    text-shadow: 0rem -0.2rem 0.2rem rgba(154, 86, 19, 0.4);
+    padding: 0.3rem;
+  }
+
+
+  .posts {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    @at-root{
+      & li {
+        display: block;
+        list-style: none outside;
+        margin: 1rem;
+        padding: 1rem;
+        background: antiquewhite;
+        border: 5px solid darkgrey;
+        box-shadow: 0rem 0.6rem 1.3rem 0.1rem rgba(0,0,0,0.3);
+      }
+
+      & li:hover {
+        animation: shake 0.3s ease alternate;
+      }
+
+      & a {
+        display: block;
+        text-decoration: navajowhite;
+      }
+
+      & .title {
+        color: black;
+        text-transform: capitalize;
+      }
+
+      & img {
+        width: 25rem;
+      }
+    }
+  }
+}
