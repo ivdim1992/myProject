@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d470d02-9d45-4f78-a6dc-59cfa69d46dc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-23-first-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-23-first-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-27-burgers.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-27-burgers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-27-donuts.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-27-donuts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-28-baked-rikotta.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-28-baked-rikotta.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-28-beef.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-28-beef.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-11-28-duck.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-11-28-duck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/site.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/site.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2018/11/23/first-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2018/11/23/first-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2018/11/27/baked-rikotta.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2018/11/27/baked-rikotta.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/2018/11/27/beef.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2018/11/27/beef.html" afterDir="false" />
@@ -19,13 +13,10 @@
       <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gallery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/recipes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/recipes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipies.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="site.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="site.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -102,7 +93,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recipies.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/_responsive.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipies.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipies.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -148,7 +148,6 @@
         <option value="$PROJECT_DIR$/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/scss/navigation.scss" />
-        <option value="$PROJECT_DIR$/_layouts/site.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/404.html" />
         <option value="$PROJECT_DIR$/scss/_site-header.scss" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/_posts/2018-11-27-burgers.html" />
         <option value="$PROJECT_DIR$/_posts/2018-11-23-first-post.html" />
         <option value="$PROJECT_DIR$/recipies.html" />
+        <option value="$PROJECT_DIR$/_layouts/site.html" />
       </list>
     </option>
   </component>
@@ -309,12 +309,12 @@
       <workItem from="1543326618419" duration="10166000" />
       <workItem from="1543346277134" duration="397000" />
       <workItem from="1543398558645" duration="17296000" />
-      <workItem from="1543480917770" duration="2870000" />
+      <workItem from="1543480917770" duration="4039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86230000" />
+    <option name="totallyTimeSpent" value="87399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -558,20 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_site-header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -670,6 +656,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/recipies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-11-23-first-post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -677,10 +670,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipies.html">
+    <entry file="file://$PROJECT_DIR$/scss/_responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="559">
+          <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
