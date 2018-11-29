@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d470d02-9d45-4f78-a6dc-59cfa69d46dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/scss/_site-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_site-header.scss" afterDir="false" />
-    </list>
+    <list default="true" id="0d470d02-9d45-4f78-a6dc-59cfa69d46dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -52,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_site-header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_site-header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_site-header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="68">
+              <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -93,15 +100,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_responsive.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/_responsive.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="224" column="16" selection-start-line="224" selection-start-column="16" selection-end-line="224" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -295,24 +293,25 @@
       <workItem from="1543326618419" duration="10166000" />
       <workItem from="1543346277134" duration="397000" />
       <workItem from="1543398558645" duration="17296000" />
-      <workItem from="1543480917770" duration="9240000" />
+      <workItem from="1543480917770" duration="9816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92600000" />
+    <option name="totallyTimeSpent" value="93176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19308642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19308642" />
       <window_info anchor="bottom" id="TODO" order="0" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info id="Structure" order="0" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.21686748" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.21686748" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="0" />
     </layout>
@@ -501,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -664,8 +656,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_site-header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="68">
+          <caret line="4" column="61" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
