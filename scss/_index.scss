@@ -113,7 +113,7 @@
   }
 
   input[type="submit"] {
-    background: linear-gradient(to top, #052607fa, #317748);
+    background: linear-gradient(to top, unquote('#052607fa'), unquote('#317748'));
     border: none;
     color: white;
     padding: 0 1rem;
