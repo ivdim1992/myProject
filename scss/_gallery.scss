@@ -40,7 +40,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 6px;
-    background: linear-gradient(to top,unquote('#052607fa'), unquote('#317748'));
+    background:-webkit-linear-gradient(top, unquote('#052607fa'), unquote('#317748'));
     padding: 7px;
     margin: 3px;
 
