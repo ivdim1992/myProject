@@ -1,0 +1,31 @@
+.ingredients-wrapper {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #e8e8e8;
+
+
+  .ingredients {
+    padding: 0;
+
+
+    li {
+      list-style: square inside;
+      padding-bottom: 0.4rem;
+    }
+  }
+
+
+  .method {
+    p {
+
+    }
+
+    span {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+  }
+}
