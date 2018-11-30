@@ -226,3 +226,12 @@
     left: 15% !important;
   }
 }
+
+// This is for image in recipes
+@include breakpointMax('tablet') {
+  .ingredients-wrapper {
+    img {
+      width: 30rem;
+    }
+  }
+}

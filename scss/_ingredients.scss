@@ -2,14 +2,19 @@
   padding: 4rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   background: #e8e8e8;
 
 
+  & img {
+    padding: var(--spacint-site);
+    border-radius: 3rem;
+  }
+
   .ingredients {
     padding: 0;
-
+    flex: 0 1 25rem;
 
     li {
       list-style: square inside;

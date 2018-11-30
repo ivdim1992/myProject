@@ -9,8 +9,8 @@ permalink: /recipes/
         {% for post in site.posts %}
         <li>
             <a href="{{ site.baseurl }}{{ post.url }}">
-                <p class="title">{{ post.title }}</p>
-                <img src="{{site.baseurl}}/images/{{ post.img }}" alt="salmon">
+                <span class="title">{{ post.title }}</span>
+                <img src="{{site.baseurl}}/images/{{ post.img }}" alt="">
             </a>
         </li>
         {% endfor %}
